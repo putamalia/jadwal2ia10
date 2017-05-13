@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asepmohamadnoor.jadwal2ia10.RabuActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/scrollview3">
+
+            <ImageView
+                android:id="@+id/oktaviani"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/oktaviani"/>
+            <TextView
+                android:id="@+id/tSistemberkas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oktaviani"
+                android:text="Mata Kuliah   : Sistem Berkas"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tJamsb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oktaviani"
+                android:text="Jam              : 1/2/3"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tRuangsb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oktaviani"
+                android:text="Ruang           : G237"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tDosensb"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/oktaviani"
+                android:text="Dosen            : Oktaviani"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <ImageView
+                android:id="@+id/risdawati"
+                android:layout_width="match_parent"
+                android:layout_height="240dp" />
+
+            <TextView
+                android:id="@+id/tPemrograman"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/risdawati"
+                android:text="Mata Kuliah           : Pemrograman Berbasis Objek"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4b57a">
+
+    <Button
+        android:id="@+id/senin"
+        android:text="SENIN"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:background="#e2502b"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/selasa"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/senin"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#FFFFFF99"
+        android:textColor="#6cd21a"
+        android:text="SELASA"
+        />
+
+    <Button
+        android:id="@+id/rabu"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/selasa"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:background="#85efef"
+        android:textColor="#173fef"
+        android:text="RABU" />
+
+    <Button
+        android:id="@+id/kamis"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/rabu"
+        android:layout_marginTop="10dp"
+        android:layout_centerInParent="true"
+        android:text="KAMIS"
+        android:textColor="#fa332c"
+        android:background="#e07afc"/>
+
+    <Button
+        android:id="@+id/jumat"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/kamis"
+        android:layout_centerInParent="true"
+        android:text="JUMAT"
+        android:background="#94b4fa"
+        android:textColor="#700f70"/>
+    <Button
+        android:id="@+id/sabtu"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/jumat"
+        android:layout_centerInParent="true"
+        android:text="SABTU"
+        android:background="#5fcf46"
+        android:textColor="#ca5114">
+
+    </Button>
+</RelativeLayout>

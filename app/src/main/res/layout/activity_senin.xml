@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asepmohamadnoor.jadwal2ia10.SeninActivity">
+
+   <ImageView
+       android:id="@+id/buesti"
+       android:layout_width="500dp"
+       android:layout_height="350dp"
+       android:scaleType="center"
+       android:src="@drawable/buesti"
+       android:layout_alignParentTop="true"
+       android:layout_alignParentLeft="true"
+       android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buesti"
+        android:text="Mata Kuliah   :"
+        android:textColor="#e2502b"/>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text1"
+        android:text="Jam                :"
+        android:textColor="#e2502b"
+        />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text2"
+        android:text="Ruang             :"
+        android:textColor="#e2502b"
+        />
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pengantar Web Science"
+        android:textColor="#e2502b"
+        android:layout_alignBaseline="@+id/text1"
+        android:layout_alignBottom="@+id/text1"
+        android:layout_toRightOf="@+id/text7"
+        android:layout_toEndOf="@+id/text7"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp" />
+    <TextView
+        android:id="@+id/text5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text2"
+        android:layout_below="@+id/text4"
+        android:text="    3/4"
+        android:textColor="#e2502b"
+        />
+    <TextView
+        android:id="@+id/text6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text3"
+        android:layout_below="@+id/text5"
+        android:text="    G3410"
+        android:textColor="#e2502b"
+        />
+    <TextView
+        android:id="@+id/text7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text3"
+        android:text="Dosen             :"
+        android:textColor="#e2502b"
+        />
+    <TextView
+        android:id="@+id/text8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/text7"
+        android:layout_below="@+id/text6"
+        android:text="    Esti Setiyaningsih"
+        android:textColor="#e2502b"
+        />
+
+</RelativeLayout>

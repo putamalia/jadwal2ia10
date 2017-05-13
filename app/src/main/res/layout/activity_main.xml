@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asepmohamadnoor.jadwal2ia10.MainActivity">
+
+    <ImageView
+        android:id="@+id/foto2"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:src="@drawable/foto2"
+        android:layout_below="@+id/logo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="23dp" />
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentRight="true"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Selamat Datang di 2IA10"
+        android:textAlignment="center"
+        android:textColor="#a0ddf4"
+        android:layout_below="@+id/foto2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/masuk"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:text="MASUK"
+        android:background="#a9e6fc"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

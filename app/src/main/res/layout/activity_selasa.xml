@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asepmohamadnoor.jadwal2ia10.SelasaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+        <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="vertical"
+             android:layout_below="@+id/scrollView2">
+
+        <ImageView
+            android:id="@+id/donna"
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:src="@drawable/donna"/>
+            <TextView
+                android:id="@+id/tMata"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/donna"
+                android:text="Mata Kuliah     : Sistem Informasi Manajemen"
+                android:textColor="#6cd21a"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tJam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tMata"
+                android:text="Jam                : 4/5/6"
+                android:textColor="#6cd21a"
+                android:fontFamily="casual"
+                />
+            <TextView
+                android:id="@+id/tRuang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tJam"
+                android:text="Ruang             : E511"
+                android:textColor="#6cd21a"
+                android:fontFamily="casual"
+                />
+            <TextView
+                android:id="@+id/tDosen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tRuang"
+                android:text="Dosen             : A. Ramadona Nilawati"
+                android:textColor="#6cd21a"
+                android:fontFamily="casual"
+                />
+    <ImageView
+        android:id="@+id/susi"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_below="@id/tDosen"
+        android:src="@drawable/susi"/>
+    <TextView
+        android:id="@+id/tMatlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/susi"
+        android:text="Mata Kuliah   : Matematika Lanjut"
+        android:textColor="#6cd21a"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:id="@+id/tJammmatlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tMatlan"
+        android:text="Jam                : 7/8/9"
+        android:textColor="#6cd21a"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:id="@+id/tRuangmatlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tJammmatlan"
+        android:text="Ruang             : E511"
+        android:textColor="#6cd21a"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:id="@+id/tDosenmatlan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tRuangmatlan"
+        android:text="Dosen             : Susi Indrati"
+        android:textColor="#6cd21a"
+        android:fontFamily="casual"
+        />
+    </LinearLayout>
+     </ScrollView>
+
+</RelativeLayout>
