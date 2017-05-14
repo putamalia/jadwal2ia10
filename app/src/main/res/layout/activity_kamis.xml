@@ -1,9 +1,101 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.asepmohamadnoor.jadwal2ia10.KamisActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview4"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_below="@+id/scrollview4">
+
+            <ImageView
+                android:id="@+id/edi"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/edi"/>
+            <TextView
+                android:id="@+id/tMatle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata Kuliah           : Legal Aspek"
+                android:layout_below="@+id/edi"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tJamle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jam                      : 6/7"
+                android:layout_below="@+id/tJamle"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tRuangle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruang                   : G114"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tDosenle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dosen                    : Muhammad Edy Supriyadi"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+
+            <ImageView
+                android:id="@+id/hanan"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/hanan"/>
+            <TextView
+                android:id="@+id/tMatif"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata Kuliah           : Matematika Informatika 4"
+                android:layout_below="@+id/hanan"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tJammat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jam                      : 8/9/10"
+                android:layout_below="@+id/tMatif"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tRuangmat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruang                   : G114"
+                android:layout_below="@+id/tJammat"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tDosenmat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dosen                    : Nurhanan"
+                android:layout_below="@+id/tRuangmat"
+                android:textColor="#e4274d"
+                android:fontFamily="casual"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

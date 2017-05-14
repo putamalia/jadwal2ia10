@@ -9,7 +9,11 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/scrollview3">
+        android:id="@+id/scrollview3"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,17 +59,110 @@
                 android:textColor="#173fef"
                 android:fontFamily="casual"/>
             <ImageView
-                android:id="@+id/risdawati"
+                android:id="@+id/ahmad"
                 android:layout_width="match_parent"
-                android:layout_height="240dp" />
+                android:layout_height="240dp"
+                android:src="@drawable/ahmad"/>
 
             <TextView
                 android:id="@+id/tPemrograman"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_below="@+id/risdawati"
-                android:text="Mata Kuliah           : Pemrograman Berbasis Objek"/>
-
+                android:layout_below="@+id/ahmad"
+                android:text="Mata Kuliah           : Pemrograman Berbasis Objek"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tJamprog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tPemrograman"
+                android:text="Jam               : 4/5"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tRuangprog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tJamprog"
+                android:text="Ruang             : G237"
+                android:textColor="#173fef"
+                android:fontFamily="casual"
+                />
+            <TextView
+                android:id="@+id/tDosenprog"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tRuangprog"
+                android:text="Dosen             : Ahmad Apandi"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <ImageView
+                android:id="@+id/rini"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/rini"/>
+            <TextView
+                android:id="@+id/tBindo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rini"
+                android:text="Mata Kuliah           : Bahasa Indonesia"
+                android:shadowColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tMatbin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tBindo"
+                android:text="Jam           : 7/8"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tRuangbin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruang         : G136"
+                android:layout_below="@+id/tMatbin"
+                android:shadowColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tDosenbin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rini Astuti"
+                android:layout_below="@+id/tRuangbin"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <ImageView
+                android:id="@+id/sandhi"
+                android:layout_width="match_parent"
+                android:layout_height="240dp"
+                android:src="@drawable/sandhi"/>
+            <TextView
+                android:id="@+id/tArkom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mata Kuliah           : Arsitektur Komputer"
+                android:layout_below="@+id/sandhi"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tMatkom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jam           : 9/10"
+                android:layout_below="@+id/tArkom"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
+            <TextView
+                android:id="@+id/tRuangkom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ruang         : G136"
+                android:layout_below="@+id/tMatkom"
+                android:textColor="#173fef"
+                android:fontFamily="casual"/>
         </LinearLayout>
 
     </ScrollView>

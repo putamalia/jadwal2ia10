@@ -1,9 +1,105 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.asepmohamadnoor.jadwal2ia10.SabtuActivity">
 
-</android.support.constraint.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollview5"
+        android:layout_marginTop="110dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/scrollview5">
+    <ImageView
+        android:id="@+id/arif"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:src="@drawable/arif"/>
+    <TextView
+        android:id="@+id/tStatistik"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah           : Statistika 2"
+        android:layout_below="@+id/arif"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/tJamsat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jam                      : 1/2/3"
+        android:layout_below="@+id/tStatistik"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/tRuangsat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruang                   : G225"
+        android:layout_below="@+id/tJamsat"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/tDosensat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosen                    : Yuniarso Arif Kresno"
+        android:layout_below="@+id/tRuangsat"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+
+    <ImageView
+        android:id="@+id/lasma"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_below="@+id/tDosensat"
+        android:src="@drawable/lasma"/>
+    <TextView
+        android:id="@+id/tInfokes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mata Kuliah           : Informatika Kesehatan"
+        android:layout_below="@+id/lasma"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/tJamin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jam                   : 5/6"
+        android:layout_below="@+id/tInfokes"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"
+        />
+    <TextView
+        android:id="@+id/tRuangin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ruang                 : G225"
+        android:layout_below="@+id/tJamin"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+    <TextView
+        android:id="@+id/tDosenin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dosen           : Lasma Nurhayati Siagian"
+        android:layout_below="@+id/tRuangin"
+        android:textColor="#7ecfc6"
+        android:fontFamily="casual"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+
+    </RelativeLayout>
